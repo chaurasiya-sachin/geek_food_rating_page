@@ -1,0 +1,46 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #F3F4F6;
+}
+.footerdiv{
+    margin: 10px auto;
+    max-width: 1000px;
+    padding: 50px;
+}
+.logobox{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.logobox img{
+    height: 100%;
+}
+.para{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+.list{
+ list-style: none;
+ display: flex;
+ gap: 40px;
+ font-size: 18px;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icon>a{
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+.icon>a>i{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,53 @@
+.header{
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    width: 100%;
+    background-color: #111827;
+    color: #fff;  
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.headerDiv{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+.logodiv{
+    display: flex;
+    gap: 5px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.btn{
+    border: none;
+    background-color: #2563EB;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #1158f3;
+}
+.bar{
+    display: none;
+}
+.bar i{
+    color: #fff;
+}
+@media screen and (max-width:775px){
+    .bar{
+        display: flex;
+        color: #fff;
+    }
+    .list{
+        display: none;
+    }
+}

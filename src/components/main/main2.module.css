@@ -1,0 +1,20 @@
+.mainDiv{
+    width: 100%;
+
+}
+.innerDiv{
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px 10px;
+}
+.cardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+@media screen and (max-width:650px) {
+    .cardDiv{
+        flex-direction: column;
+    }
+    
+}

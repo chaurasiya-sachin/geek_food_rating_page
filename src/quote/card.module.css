@@ -1,0 +1,16 @@
+.Card{
+  width: 80%;
+  background-color: #1F2937;
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+.Card .para{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Card .name{
+    text-align: center;
+    color: #9CA3AF;
+}
